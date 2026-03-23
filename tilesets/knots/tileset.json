@@ -1,0 +1,642 @@
+{
+  "cell_size": [
+    10,
+    10
+  ],
+  "grid_size": [
+    27,
+    48
+  ],
+  "display_ratio": 5,
+  "show_preview": true,
+  "start_tile": null,
+  "tiles": [
+    {
+      "name": "corner__0",
+      "image": "corner__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__1",
+          "corner__2",
+          "empty",
+          "line__1",
+          "t__3"
+        ],
+        "down": [
+          "corner__2",
+          "corner__3",
+          "empty",
+          "line__0",
+          "t__0"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "corner__1",
+      "image": "corner__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__2",
+          "corner__3",
+          "empty",
+          "line__0",
+          "t__0"
+        ],
+        "right": [
+          "corner__0",
+          "corner__3",
+          "empty",
+          "line__1",
+          "t__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "corner__2",
+      "image": "corner__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__0",
+          "corner__3",
+          "empty",
+          "line__1",
+          "t__1"
+        ],
+        "up": [
+          "corner__0",
+          "corner__1",
+          "empty",
+          "line__0",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "corner__3",
+      "image": "corner__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__1",
+          "corner__2",
+          "empty",
+          "line__1",
+          "t__3"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__0",
+          "corner__1",
+          "empty",
+          "line__0",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "cross__0",
+      "image": "cross__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "cross__1",
+      "image": "cross__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "empty",
+      "image": "empty.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__1",
+          "corner__2",
+          "empty",
+          "line__1",
+          "t__3"
+        ],
+        "down": [
+          "corner__2",
+          "corner__3",
+          "empty",
+          "line__0",
+          "t__0"
+        ],
+        "right": [
+          "corner__0",
+          "corner__3",
+          "empty",
+          "line__1",
+          "t__1"
+        ],
+        "up": [
+          "corner__0",
+          "corner__1",
+          "empty",
+          "line__0",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "line__0",
+      "image": "line__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__2",
+          "corner__3",
+          "empty",
+          "line__0",
+          "t__0"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__0",
+          "corner__1",
+          "empty",
+          "line__0",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "line__1",
+      "image": "line__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__1",
+          "corner__2",
+          "empty",
+          "line__1",
+          "t__3"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__0",
+          "corner__3",
+          "empty",
+          "line__1",
+          "t__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "t__0",
+      "image": "t__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__0",
+          "corner__1",
+          "empty",
+          "line__0",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "t__1",
+      "image": "t__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__1",
+          "corner__2",
+          "empty",
+          "line__1",
+          "t__3"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "t__2",
+      "image": "t__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__2",
+          "corner__3",
+          "empty",
+          "line__0",
+          "t__0"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    },
+    {
+      "name": "t__3",
+      "image": "t__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__0",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "corner__0",
+          "corner__3",
+          "empty",
+          "line__1",
+          "t__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "cross__0",
+          "cross__1",
+          "line__1",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    }
+  ],
+  "subsets": {
+    "Standard": [
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3",
+      "cross__0",
+      "cross__1",
+      "empty",
+      "line__0",
+      "line__1"
+    ],
+    "Dense": [
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3",
+      "cross__0",
+      "cross__1",
+      "line__0",
+      "line__1"
+    ],
+    "Crossless": [
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3",
+      "empty",
+      "line__0",
+      "line__1"
+    ],
+    "TE": [
+      "t__0",
+      "t__1",
+      "t__2",
+      "t__3",
+      "empty"
+    ],
+    "T": [
+      "t__0",
+      "t__1",
+      "t__2",
+      "t__3"
+    ],
+    "CL": [
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3",
+      "line__0",
+      "line__1"
+    ],
+    "CE": [
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3",
+      "empty"
+    ],
+    "C": [
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3"
+    ],
+    "Fabric": [
+      "cross__0",
+      "cross__1",
+      "line__0",
+      "line__1"
+    ],
+    "Dense Fabric": [
+      "cross__0",
+      "cross__1"
+    ]
+  }
+}

@@ -1,0 +1,1130 @@
+{
+  "cell_size": [
+    7,
+    7
+  ],
+  "grid_size": [
+    27,
+    48
+  ],
+  "display_ratio": 5,
+  "show_preview": true,
+  "start_tile": null,
+  "tiles": [
+    {
+      "name": "bridge__0",
+      "image": "bridge__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "road__1",
+          "roadturn__0",
+          "roadturn__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "wallroad__0"
+        ],
+        "down": [
+          "river__0",
+          "riverturn__0",
+          "riverturn__1"
+        ],
+        "right": [
+          "road__1",
+          "roadturn__1",
+          "roadturn__2",
+          "t__0",
+          "t__2",
+          "t__3",
+          "wallroad__0"
+        ],
+        "up": [
+          "river__0",
+          "riverturn__2",
+          "riverturn__3"
+        ]
+      }
+    },
+    {
+      "name": "bridge__1",
+      "image": "bridge__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "river__1",
+          "riverturn__0",
+          "riverturn__3"
+        ],
+        "down": [
+          "road__0",
+          "roadturn__0",
+          "roadturn__1",
+          "t__1",
+          "t__2",
+          "t__3",
+          "wallroad__1"
+        ],
+        "right": [
+          "river__1",
+          "riverturn__1",
+          "riverturn__2"
+        ],
+        "up": [
+          "road__0",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "t__1",
+          "t__3",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "ground",
+      "image": "ground.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "river__0",
+      "image": "river__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "bridge__0",
+          "river__0",
+          "riverturn__0",
+          "riverturn__1",
+          "wallriver__1"
+        ],
+        "right": [
+          "ground",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "bridge__0",
+          "river__0",
+          "riverturn__2",
+          "riverturn__3",
+          "wallriver__1"
+        ]
+      }
+    },
+    {
+      "name": "river__1",
+      "image": "river__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "river__1",
+          "riverturn__0",
+          "riverturn__3",
+          "wallriver__0"
+        ],
+        "down": [
+          "ground",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "bridge__1",
+          "river__1",
+          "riverturn__1",
+          "riverturn__2",
+          "wallriver__0"
+        ],
+        "up": [
+          "ground",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "riverturn__0",
+      "image": "riverturn__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "ground",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "bridge__1",
+          "river__1",
+          "riverturn__2",
+          "wallriver__0"
+        ],
+        "up": [
+          "bridge__0",
+          "river__0",
+          "riverturn__2",
+          "wallriver__1"
+        ]
+      }
+    },
+    {
+      "name": "riverturn__1",
+      "image": "riverturn__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "river__1",
+          "riverturn__3",
+          "wallriver__0"
+        ],
+        "down": [
+          "ground",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "ground",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "bridge__0",
+          "river__0",
+          "riverturn__3",
+          "wallriver__1"
+        ]
+      }
+    },
+    {
+      "name": "riverturn__2",
+      "image": "riverturn__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "river__1",
+          "riverturn__0",
+          "wallriver__0"
+        ],
+        "down": [
+          "bridge__0",
+          "river__0",
+          "riverturn__0",
+          "wallriver__1"
+        ],
+        "right": [
+          "ground",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "ground",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "riverturn__3",
+      "image": "riverturn__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "bridge__0",
+          "river__0",
+          "riverturn__1",
+          "wallriver__1"
+        ],
+        "right": [
+          "bridge__1",
+          "river__1",
+          "riverturn__1",
+          "wallriver__0"
+        ],
+        "up": [
+          "ground",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "road__0",
+      "image": "road__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1",
+          "t__1",
+          "t__2",
+          "t__3",
+          "wallroad__1"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "t__1",
+          "t__3",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "road__1",
+      "image": "road__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "roadturn__0",
+          "roadturn__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "wallroad__0"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2",
+          "t__0",
+          "t__2",
+          "t__3",
+          "wallroad__0"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__0",
+      "image": "roadturn__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "roadturn__2",
+          "t__0",
+          "wallroad__0"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "roadturn__2",
+          "t__3",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__1",
+      "image": "roadturn__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "roadturn__3",
+          "t__0",
+          "wallroad__0"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "roadturn__3",
+          "t__1",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__2",
+      "image": "roadturn__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "roadturn__0",
+          "t__2",
+          "wallroad__0"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "roadturn__0",
+          "t__1",
+          "wallroad__1"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__3",
+      "image": "roadturn__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "roadturn__1",
+          "t__3",
+          "wallroad__1"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "roadturn__1",
+          "t__2",
+          "wallroad__0"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "t__0",
+      "image": "t__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "roadturn__0",
+          "t__2",
+          "wallroad__0"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "wallroad__1"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "roadturn__1",
+          "t__2",
+          "wallroad__0"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "tower__0",
+          "tower__1",
+          "wall__1"
+        ]
+      }
+    },
+    {
+      "name": "t__1",
+      "image": "t__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "tower__1",
+          "tower__2",
+          "wall__0"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "roadturn__1",
+          "t__3",
+          "wallroad__1"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "wallroad__0"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "roadturn__2",
+          "t__3",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "t__2",
+      "image": "t__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "roadturn__3",
+          "t__0",
+          "wallroad__0"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "tower__2",
+          "tower__3",
+          "wall__1"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "roadturn__2",
+          "t__0",
+          "wallroad__0"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "t__3",
+      "image": "t__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "wallroad__0"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "roadturn__0",
+          "t__1",
+          "wallroad__1"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "tower__0",
+          "tower__3",
+          "wall__0"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "roadturn__3",
+          "t__1",
+          "wallroad__1"
+        ]
+      }
+    },
+    {
+      "name": "tower__0",
+      "image": "tower__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0"
+        ],
+        "right": [
+          "wall__1",
+          "wallriver__1",
+          "wallroad__1"
+        ],
+        "up": [
+          "wall__0",
+          "wallriver__0",
+          "wallroad__0"
+        ]
+      }
+    },
+    {
+      "name": "tower__1",
+      "image": "tower__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__1",
+          "wallriver__1",
+          "wallroad__1"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1"
+        ],
+        "up": [
+          "wall__0",
+          "wallriver__0",
+          "wallroad__0"
+        ]
+      }
+    },
+    {
+      "name": "tower__2",
+      "image": "tower__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__1",
+          "wallriver__1",
+          "wallroad__1"
+        ],
+        "down": [
+          "wall__0",
+          "wallriver__0",
+          "wallroad__0"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "tower__3",
+      "image": "tower__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3"
+        ],
+        "down": [
+          "wall__0",
+          "wallriver__0",
+          "wallroad__0"
+        ],
+        "right": [
+          "wall__1",
+          "wallriver__1",
+          "wallroad__1"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "wall__0",
+      "image": "wall__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "ground",
+          "river__0",
+          "riverturn__1",
+          "riverturn__2",
+          "road__0",
+          "roadturn__1",
+          "roadturn__2",
+          "t__3"
+        ],
+        "down": [
+          "tower__0",
+          "tower__1",
+          "wall__0",
+          "wallriver__0",
+          "wallroad__0"
+        ],
+        "right": [
+          "ground",
+          "river__0",
+          "riverturn__0",
+          "riverturn__3",
+          "road__0",
+          "roadturn__0",
+          "roadturn__3",
+          "t__1"
+        ],
+        "up": [
+          "tower__2",
+          "tower__3",
+          "wall__0",
+          "wallriver__0",
+          "wallroad__0"
+        ]
+      }
+    },
+    {
+      "name": "wall__1",
+      "image": "wall__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "tower__0",
+          "tower__3",
+          "wall__1",
+          "wallriver__1",
+          "wallroad__1"
+        ],
+        "down": [
+          "ground",
+          "river__1",
+          "riverturn__2",
+          "riverturn__3",
+          "road__1",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0"
+        ],
+        "right": [
+          "tower__1",
+          "tower__2",
+          "wall__1",
+          "wallriver__1",
+          "wallroad__1"
+        ],
+        "up": [
+          "ground",
+          "river__1",
+          "riverturn__0",
+          "riverturn__1",
+          "road__1",
+          "roadturn__0",
+          "roadturn__1",
+          "t__2"
+        ]
+      }
+    },
+    {
+      "name": "wallriver__0",
+      "image": "wallriver__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "river__1",
+          "riverturn__0",
+          "riverturn__3"
+        ],
+        "down": [
+          "tower__0",
+          "tower__1",
+          "wall__0",
+          "wallroad__0"
+        ],
+        "right": [
+          "river__1",
+          "riverturn__1",
+          "riverturn__2"
+        ],
+        "up": [
+          "tower__2",
+          "tower__3",
+          "wall__0",
+          "wallroad__0"
+        ]
+      }
+    },
+    {
+      "name": "wallriver__1",
+      "image": "wallriver__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "tower__0",
+          "tower__3",
+          "wall__1",
+          "wallroad__1"
+        ],
+        "down": [
+          "river__0",
+          "riverturn__0",
+          "riverturn__1"
+        ],
+        "right": [
+          "tower__1",
+          "tower__2",
+          "wall__1",
+          "wallroad__1"
+        ],
+        "up": [
+          "river__0",
+          "riverturn__2",
+          "riverturn__3"
+        ]
+      }
+    },
+    {
+      "name": "wallroad__0",
+      "image": "wallroad__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "road__1",
+          "roadturn__0",
+          "roadturn__3",
+          "t__0",
+          "t__1",
+          "t__2"
+        ],
+        "down": [
+          "tower__0",
+          "tower__1",
+          "wall__0",
+          "wallriver__0"
+        ],
+        "right": [
+          "bridge__0",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2",
+          "t__0",
+          "t__2",
+          "t__3"
+        ],
+        "up": [
+          "tower__2",
+          "tower__3",
+          "wall__0",
+          "wallriver__0"
+        ]
+      }
+    },
+    {
+      "name": "wallroad__1",
+      "image": "wallroad__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "tower__0",
+          "tower__3",
+          "wall__1",
+          "wallriver__1"
+        ],
+        "down": [
+          "bridge__1",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1",
+          "t__1",
+          "t__2",
+          "t__3"
+        ],
+        "right": [
+          "tower__1",
+          "tower__2",
+          "wall__1",
+          "wallriver__1"
+        ],
+        "up": [
+          "bridge__1",
+          "road__0",
+          "roadturn__2",
+          "roadturn__3",
+          "t__0",
+          "t__1",
+          "t__3"
+        ]
+      }
+    }
+  ]
+}

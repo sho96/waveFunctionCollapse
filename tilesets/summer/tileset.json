@@ -1,0 +1,1227 @@
+{
+  "cell_size": [
+    48,
+    48
+  ],
+  "grid_size": [
+    27,
+    48
+  ],
+  "display_ratio": 5,
+  "show_preview": true,
+  "start_tile": null,
+  "tiles": [
+    {
+      "name": "cliff__0",
+      "image": "cliff__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__0",
+          "cliffcorner__3",
+          "cliffturn__0"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "cliff__0",
+          "cliffcorner__2",
+          "cliffturn__1"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "cliff__1",
+      "image": "cliff__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "cliff__1",
+          "cliffcorner__0",
+          "cliffturn__1"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "cliff__1",
+          "cliffcorner__3",
+          "cliffturn__2"
+        ]
+      }
+    },
+    {
+      "name": "cliff__2",
+      "image": "cliff__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__2",
+          "cliffcorner__0",
+          "cliffturn__3"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "cliff__2",
+          "cliffcorner__1",
+          "cliffturn__2"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "cliff__3",
+      "image": "cliff__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "cliff__3",
+          "cliffcorner__1",
+          "cliffturn__0"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "cliff__3",
+          "cliffcorner__2",
+          "cliffturn__3"
+        ]
+      }
+    },
+    {
+      "name": "cliffcorner__0",
+      "image": "cliffcorner__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "cliff__2",
+          "cliffturn__2"
+        ],
+        "up": [
+          "cliff__1",
+          "cliffturn__2"
+        ]
+      }
+    },
+    {
+      "name": "cliffcorner__1",
+      "image": "cliffcorner__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__2",
+          "cliffturn__3"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "cliff__3",
+          "cliffturn__3"
+        ]
+      }
+    },
+    {
+      "name": "cliffcorner__2",
+      "image": "cliffcorner__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__0",
+          "cliffturn__0"
+        ],
+        "down": [
+          "cliff__3",
+          "cliffturn__0"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "cliffcorner__3",
+      "image": "cliffcorner__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "cliff__1",
+          "cliffturn__1"
+        ],
+        "right": [
+          "cliff__0",
+          "cliffturn__1"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "cliffturn__0",
+      "image": "cliffturn__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "cliff__0",
+          "cliffcorner__2"
+        ],
+        "up": [
+          "cliff__3",
+          "cliffcorner__2"
+        ]
+      }
+    },
+    {
+      "name": "cliffturn__1",
+      "image": "cliffturn__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__0",
+          "cliffcorner__3"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "cliff__1",
+          "cliffcorner__3"
+        ]
+      }
+    },
+    {
+      "name": "cliffturn__2",
+      "image": "cliffturn__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__2",
+          "cliffcorner__0"
+        ],
+        "down": [
+          "cliff__1",
+          "cliffcorner__0"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "cliffturn__3",
+      "image": "cliffturn__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "cliff__3",
+          "cliffcorner__1"
+        ],
+        "right": [
+          "cliff__2",
+          "cliffcorner__1"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "grass",
+      "image": "grass.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__1",
+          "cliffcorner__2",
+          "cliffturn__1",
+          "cliffturn__2",
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2",
+          "watercorner__1",
+          "watercorner__2",
+          "waterside__1"
+        ],
+        "down": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__2",
+          "cliffcorner__3",
+          "cliffturn__2",
+          "cliffturn__3",
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3",
+          "watercorner__2",
+          "watercorner__3",
+          "waterside__2"
+        ],
+        "right": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__0",
+          "cliffcorner__3",
+          "cliffturn__0",
+          "cliffturn__3",
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3",
+          "watercorner__0",
+          "watercorner__3",
+          "waterside__3"
+        ],
+        "up": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__0",
+          "cliffcorner__1",
+          "cliffturn__0",
+          "cliffturn__1",
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1",
+          "watercorner__0",
+          "watercorner__1",
+          "waterside__0"
+        ]
+      }
+    },
+    {
+      "name": "grasscorner__0",
+      "image": "grasscorner__0.png",
+      "weight": 0.01,
+      "neighbors": {
+        "left": [
+          "grasscorner__1",
+          "grasscorner__2",
+          "road__3"
+        ],
+        "down": [
+          "grasscorner__2",
+          "grasscorner__3",
+          "road__0"
+        ],
+        "right": [
+          "road__2",
+          "roadturn__2"
+        ],
+        "up": [
+          "road__1",
+          "roadturn__2"
+        ]
+      }
+    },
+    {
+      "name": "grasscorner__1",
+      "image": "grasscorner__1.png",
+      "weight": 0.01,
+      "neighbors": {
+        "left": [
+          "road__2",
+          "roadturn__3"
+        ],
+        "down": [
+          "grasscorner__2",
+          "grasscorner__3",
+          "road__0"
+        ],
+        "right": [
+          "grasscorner__0",
+          "grasscorner__3",
+          "road__1"
+        ],
+        "up": [
+          "road__3",
+          "roadturn__3"
+        ]
+      }
+    },
+    {
+      "name": "grasscorner__2",
+      "image": "grasscorner__2.png",
+      "weight": 0.01,
+      "neighbors": {
+        "left": [
+          "road__0",
+          "roadturn__0"
+        ],
+        "down": [
+          "road__3",
+          "roadturn__0"
+        ],
+        "right": [
+          "grasscorner__0",
+          "grasscorner__3",
+          "road__1"
+        ],
+        "up": [
+          "grasscorner__0",
+          "grasscorner__1",
+          "road__2"
+        ]
+      }
+    },
+    {
+      "name": "grasscorner__3",
+      "image": "grasscorner__3.png",
+      "weight": 0.01,
+      "neighbors": {
+        "left": [
+          "grasscorner__1",
+          "grasscorner__2",
+          "road__3"
+        ],
+        "down": [
+          "road__1",
+          "roadturn__1"
+        ],
+        "right": [
+          "road__0",
+          "roadturn__1"
+        ],
+        "up": [
+          "grasscorner__0",
+          "grasscorner__1",
+          "road__2"
+        ]
+      }
+    },
+    {
+      "name": "road__0",
+      "image": "road__0.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "grasscorner__3",
+          "road__0",
+          "roadturn__0"
+        ],
+        "down": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__2",
+          "cliffcorner__3",
+          "cliffturn__2",
+          "cliffturn__3",
+          "grass",
+          "watercorner__2",
+          "watercorner__3",
+          "waterside__2"
+        ],
+        "right": [
+          "grasscorner__2",
+          "road__0",
+          "roadturn__1"
+        ],
+        "up": [
+          "grasscorner__0",
+          "grasscorner__1",
+          "road__2"
+        ]
+      }
+    },
+    {
+      "name": "road__1",
+      "image": "road__1.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "grasscorner__1",
+          "grasscorner__2",
+          "road__3"
+        ],
+        "down": [
+          "grasscorner__0",
+          "road__1",
+          "roadturn__1"
+        ],
+        "right": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__0",
+          "cliffcorner__3",
+          "cliffturn__0",
+          "cliffturn__3",
+          "grass",
+          "watercorner__0",
+          "watercorner__3",
+          "waterside__3"
+        ],
+        "up": [
+          "grasscorner__3",
+          "road__1",
+          "roadturn__2"
+        ]
+      }
+    },
+    {
+      "name": "road__2",
+      "image": "road__2.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "grasscorner__0",
+          "road__2",
+          "roadturn__3"
+        ],
+        "down": [
+          "grasscorner__2",
+          "grasscorner__3",
+          "road__0"
+        ],
+        "right": [
+          "grasscorner__1",
+          "road__2",
+          "roadturn__2"
+        ],
+        "up": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__0",
+          "cliffcorner__1",
+          "cliffturn__0",
+          "cliffturn__1",
+          "grass",
+          "watercorner__0",
+          "watercorner__1",
+          "waterside__0"
+        ]
+      }
+    },
+    {
+      "name": "road__3",
+      "image": "road__3.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__1",
+          "cliffcorner__2",
+          "cliffturn__1",
+          "cliffturn__2",
+          "grass",
+          "watercorner__1",
+          "watercorner__2",
+          "waterside__1"
+        ],
+        "down": [
+          "grasscorner__1",
+          "road__3",
+          "roadturn__0"
+        ],
+        "right": [
+          "grasscorner__0",
+          "grasscorner__3",
+          "road__1"
+        ],
+        "up": [
+          "grasscorner__2",
+          "road__3",
+          "roadturn__3"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__0",
+      "image": "roadturn__0.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__1",
+          "cliffcorner__2",
+          "cliffturn__1",
+          "cliffturn__2",
+          "grass",
+          "watercorner__1",
+          "watercorner__2",
+          "waterside__1"
+        ],
+        "down": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__2",
+          "cliffcorner__3",
+          "cliffturn__2",
+          "cliffturn__3",
+          "grass",
+          "watercorner__2",
+          "watercorner__3",
+          "waterside__2"
+        ],
+        "right": [
+          "grasscorner__2",
+          "road__0"
+        ],
+        "up": [
+          "grasscorner__2",
+          "road__3"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__1",
+      "image": "roadturn__1.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "grasscorner__3",
+          "road__0"
+        ],
+        "down": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__2",
+          "cliffcorner__3",
+          "cliffturn__2",
+          "cliffturn__3",
+          "grass",
+          "watercorner__2",
+          "watercorner__3",
+          "waterside__2"
+        ],
+        "right": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__0",
+          "cliffcorner__3",
+          "cliffturn__0",
+          "cliffturn__3",
+          "grass",
+          "watercorner__0",
+          "watercorner__3",
+          "waterside__3"
+        ],
+        "up": [
+          "grasscorner__3",
+          "road__1"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__2",
+      "image": "roadturn__2.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "grasscorner__0",
+          "road__2"
+        ],
+        "down": [
+          "grasscorner__0",
+          "road__1"
+        ],
+        "right": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__0",
+          "cliffcorner__3",
+          "cliffturn__0",
+          "cliffturn__3",
+          "grass",
+          "watercorner__0",
+          "watercorner__3",
+          "waterside__3"
+        ],
+        "up": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__0",
+          "cliffcorner__1",
+          "cliffturn__0",
+          "cliffturn__1",
+          "grass",
+          "watercorner__0",
+          "watercorner__1",
+          "waterside__0"
+        ]
+      }
+    },
+    {
+      "name": "roadturn__3",
+      "image": "roadturn__3.png",
+      "weight": 0.05,
+      "neighbors": {
+        "left": [
+          "cliff__1",
+          "cliff__3",
+          "cliffcorner__1",
+          "cliffcorner__2",
+          "cliffturn__1",
+          "cliffturn__2",
+          "grass",
+          "watercorner__1",
+          "watercorner__2",
+          "waterside__1"
+        ],
+        "down": [
+          "grasscorner__1",
+          "road__3"
+        ],
+        "right": [
+          "grasscorner__1",
+          "road__2"
+        ],
+        "up": [
+          "cliff__0",
+          "cliff__2",
+          "cliffcorner__0",
+          "cliffcorner__1",
+          "cliffturn__0",
+          "cliffturn__1",
+          "grass",
+          "watercorner__0",
+          "watercorner__1",
+          "waterside__0"
+        ]
+      }
+    },
+    {
+      "name": "water_a",
+      "image": "water_a.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "water_a",
+          "water_b",
+          "water_c",
+          "waterside__3",
+          "waterturn__0",
+          "waterturn__3"
+        ],
+        "down": [
+          "water_a",
+          "water_b",
+          "water_c",
+          "waterside__0",
+          "waterturn__0",
+          "waterturn__1"
+        ],
+        "right": [
+          "water_a",
+          "water_b",
+          "water_c",
+          "waterside__1",
+          "waterturn__1",
+          "waterturn__2"
+        ],
+        "up": [
+          "water_a",
+          "water_b",
+          "water_c",
+          "waterside__2",
+          "waterturn__2",
+          "waterturn__3"
+        ]
+      }
+    },
+    {
+      "name": "water_b",
+      "image": "water_b.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "water_a",
+          "waterside__3",
+          "waterturn__0",
+          "waterturn__3"
+        ],
+        "down": [
+          "water_a",
+          "waterside__0",
+          "waterturn__0",
+          "waterturn__1"
+        ],
+        "right": [
+          "water_a",
+          "waterside__1",
+          "waterturn__1",
+          "waterturn__2"
+        ],
+        "up": [
+          "water_a",
+          "waterside__2",
+          "waterturn__2",
+          "waterturn__3"
+        ]
+      }
+    },
+    {
+      "name": "water_c",
+      "image": "water_c.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "water_a",
+          "waterside__3",
+          "waterturn__0",
+          "waterturn__3"
+        ],
+        "down": [
+          "water_a",
+          "waterside__0",
+          "waterturn__0",
+          "waterturn__1"
+        ],
+        "right": [
+          "water_a",
+          "waterside__1",
+          "waterturn__1",
+          "waterturn__2"
+        ],
+        "up": [
+          "water_a",
+          "waterside__2",
+          "waterturn__2",
+          "waterturn__3"
+        ]
+      }
+    },
+    {
+      "name": "watercorner__0",
+      "image": "watercorner__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "waterside__0",
+          "waterturn__0"
+        ],
+        "up": [
+          "waterside__3",
+          "waterturn__0"
+        ]
+      }
+    },
+    {
+      "name": "watercorner__1",
+      "image": "watercorner__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "waterside__0",
+          "waterturn__1"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "waterside__1",
+          "waterturn__1"
+        ]
+      }
+    },
+    {
+      "name": "watercorner__2",
+      "image": "watercorner__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "waterside__2",
+          "waterturn__2"
+        ],
+        "down": [
+          "waterside__1",
+          "waterturn__2"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "watercorner__3",
+      "image": "watercorner__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "waterside__3",
+          "waterturn__3"
+        ],
+        "right": [
+          "waterside__2",
+          "waterturn__3"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "waterside__0",
+      "image": "waterside__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "watercorner__0",
+          "waterside__0",
+          "waterturn__1"
+        ],
+        "down": [
+          "grass",
+          "road__2",
+          "roadturn__2",
+          "roadturn__3"
+        ],
+        "right": [
+          "watercorner__1",
+          "waterside__0",
+          "waterturn__0"
+        ],
+        "up": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ]
+      }
+    },
+    {
+      "name": "waterside__1",
+      "image": "waterside__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "down": [
+          "watercorner__1",
+          "waterside__1",
+          "waterturn__2"
+        ],
+        "right": [
+          "grass",
+          "road__3",
+          "roadturn__0",
+          "roadturn__3"
+        ],
+        "up": [
+          "watercorner__2",
+          "waterside__1",
+          "waterturn__1"
+        ]
+      }
+    },
+    {
+      "name": "waterside__2",
+      "image": "waterside__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "watercorner__3",
+          "waterside__2",
+          "waterturn__2"
+        ],
+        "down": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "right": [
+          "watercorner__2",
+          "waterside__2",
+          "waterturn__3"
+        ],
+        "up": [
+          "grass",
+          "road__0",
+          "roadturn__0",
+          "roadturn__1"
+        ]
+      }
+    },
+    {
+      "name": "waterside__3",
+      "image": "waterside__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "grass",
+          "road__1",
+          "roadturn__1",
+          "roadturn__2"
+        ],
+        "down": [
+          "watercorner__0",
+          "waterside__3",
+          "waterturn__3"
+        ],
+        "right": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "up": [
+          "watercorner__3",
+          "waterside__3",
+          "waterturn__0"
+        ]
+      }
+    },
+    {
+      "name": "waterturn__0",
+      "image": "waterturn__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "watercorner__0",
+          "waterside__0"
+        ],
+        "down": [
+          "watercorner__0",
+          "waterside__3"
+        ],
+        "right": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "up": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ]
+      }
+    },
+    {
+      "name": "waterturn__1",
+      "image": "waterturn__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "down": [
+          "watercorner__1",
+          "waterside__1"
+        ],
+        "right": [
+          "watercorner__1",
+          "waterside__0"
+        ],
+        "up": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ]
+      }
+    },
+    {
+      "name": "waterturn__2",
+      "image": "waterturn__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "down": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "right": [
+          "watercorner__2",
+          "waterside__2"
+        ],
+        "up": [
+          "watercorner__2",
+          "waterside__1"
+        ]
+      }
+    },
+    {
+      "name": "waterturn__3",
+      "image": "waterturn__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "watercorner__3",
+          "waterside__2"
+        ],
+        "down": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "right": [
+          "water_a",
+          "water_b",
+          "water_c"
+        ],
+        "up": [
+          "watercorner__3",
+          "waterside__3"
+        ]
+      }
+    }
+  ]
+}

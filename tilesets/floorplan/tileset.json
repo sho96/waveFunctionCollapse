@@ -1,0 +1,2331 @@
+{
+  "cell_size": [
+    9,
+    9
+  ],
+  "grid_size": [
+    27,
+    48
+  ],
+  "display_ratio": 5,
+  "show_preview": true,
+  "start_tile": null,
+  "tiles": [
+    {
+      "name": "empty",
+      "image": "empty.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "empty",
+          "out__1",
+          "out__2",
+          "wall__1",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "walldiv__1",
+          "w__1",
+          "window__1"
+        ],
+        "down": [
+          "empty",
+          "out__2",
+          "out__3",
+          "wall__2",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "walldiv__2",
+          "w__2",
+          "window__2"
+        ],
+        "right": [
+          "empty",
+          "out__0",
+          "out__3",
+          "wall__3",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "walldiv__3",
+          "w__3",
+          "window__3"
+        ],
+        "up": [
+          "empty",
+          "out__0",
+          "out__1",
+          "wall__0",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "walldiv__0",
+          "w__0",
+          "window__0"
+        ]
+      }
+    },
+    {
+      "name": "out__0",
+      "image": "out__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "wall__0",
+          "halfglass__0",
+          "walldiv__0",
+          "w__0",
+          "window__0"
+        ],
+        "up": [
+          "wall__3",
+          "halfglass__5",
+          "walldiv__3",
+          "w__3",
+          "window__3"
+        ]
+      }
+    },
+    {
+      "name": "out__1",
+      "image": "out__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__0",
+          "halfglass__4",
+          "walldiv__0",
+          "w__0",
+          "window__0"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "wall__1",
+          "halfglass__1",
+          "walldiv__1",
+          "w__1",
+          "window__1"
+        ]
+      }
+    },
+    {
+      "name": "out__2",
+      "image": "out__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__2",
+          "halfglass__2",
+          "walldiv__2",
+          "w__2",
+          "window__2"
+        ],
+        "down": [
+          "wall__1",
+          "halfglass__7",
+          "walldiv__1",
+          "w__1",
+          "window__1"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "out__3",
+      "image": "out__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "wall__3",
+          "halfglass__3",
+          "walldiv__3",
+          "w__3",
+          "window__3"
+        ],
+        "right": [
+          "wall__2",
+          "halfglass__6",
+          "walldiv__2",
+          "w__2",
+          "window__2"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "wall__0",
+      "image": "wall__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__0",
+          "wall__0",
+          "in__1",
+          "walldiv__0"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "out__1",
+          "wall__0",
+          "in__0",
+          "walldiv__0"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "wall__1",
+      "image": "wall__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "out__1",
+          "wall__1",
+          "in__2",
+          "walldiv__1"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "out__2",
+          "wall__1",
+          "in__1",
+          "walldiv__1"
+        ]
+      }
+    },
+    {
+      "name": "wall__2",
+      "image": "wall__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__3",
+          "wall__2",
+          "in__2",
+          "walldiv__2"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "out__2",
+          "wall__2",
+          "in__3",
+          "walldiv__2"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "wall__3",
+      "image": "wall__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "out__0",
+          "wall__3",
+          "in__3",
+          "walldiv__3"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "out__3",
+          "wall__3",
+          "in__0",
+          "walldiv__3"
+        ]
+      }
+    },
+    {
+      "name": "in__0",
+      "image": "in__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__0",
+          "halfglass__4",
+          "walldiv__0",
+          "w__0",
+          "window__0"
+        ],
+        "down": [
+          "wall__3",
+          "halfglass__3",
+          "walldiv__3",
+          "w__3",
+          "window__3"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "in__1",
+      "image": "in__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "wall__1",
+          "halfglass__7",
+          "walldiv__1",
+          "w__1",
+          "window__1"
+        ],
+        "right": [
+          "wall__0",
+          "halfglass__0",
+          "walldiv__0",
+          "w__0",
+          "window__0"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "in__2",
+      "image": "in__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "wall__2",
+          "halfglass__6",
+          "walldiv__2",
+          "w__2",
+          "window__2"
+        ],
+        "up": [
+          "wall__1",
+          "halfglass__1",
+          "walldiv__1",
+          "w__1",
+          "window__1"
+        ]
+      }
+    },
+    {
+      "name": "in__3",
+      "image": "in__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__2",
+          "halfglass__2",
+          "walldiv__2",
+          "w__2",
+          "window__2"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "wall__3",
+          "halfglass__5",
+          "walldiv__3",
+          "w__3",
+          "window__3"
+        ]
+      }
+    },
+    {
+      "name": "floor",
+      "image": "floor.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__0",
+      "image": "halfglass__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__0",
+          "in__1",
+          "walldiv__0"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "glass__0"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__1",
+      "image": "halfglass__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "out__1",
+          "in__2",
+          "walldiv__1"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "glass__1"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__2",
+      "image": "halfglass__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "glass__2"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "out__2",
+          "in__3",
+          "walldiv__2"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__3",
+      "image": "halfglass__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "glass__3"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "out__3",
+          "in__0",
+          "walldiv__3"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__4",
+      "image": "halfglass__4.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "glass__0"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "out__1",
+          "in__0",
+          "walldiv__0"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__5",
+      "image": "halfglass__5.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "out__0",
+          "in__3",
+          "walldiv__3"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "glass__3"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__6",
+      "image": "halfglass__6.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__3",
+          "in__2",
+          "walldiv__2"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "glass__2"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "halfglass__7",
+      "image": "halfglass__7.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "glass__1"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "out__2",
+          "in__1",
+          "walldiv__1"
+        ]
+      }
+    },
+    {
+      "name": "glass__0",
+      "image": "glass__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "halfglass__0",
+          "glass__0"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "halfglass__4",
+          "glass__0"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "glass__1",
+      "image": "glass__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "halfglass__1",
+          "glass__1"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "halfglass__7",
+          "glass__1"
+        ]
+      }
+    },
+    {
+      "name": "glass__2",
+      "image": "glass__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "halfglass__6",
+          "glass__2"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "halfglass__2",
+          "glass__2"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "glass__3",
+      "image": "glass__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "halfglass__5",
+          "glass__3"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "halfglass__3",
+          "glass__3"
+        ]
+      }
+    },
+    {
+      "name": "walldiv__0",
+      "image": "walldiv__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__0",
+          "wall__0",
+          "in__1",
+          "halfglass__4",
+          "w__0",
+          "window__0"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "out__1",
+          "wall__0",
+          "in__0",
+          "halfglass__0",
+          "w__0",
+          "window__0"
+        ],
+        "up": [
+          "divturn__2",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "divt__3",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "walldiv__1",
+      "image": "walldiv__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "divturn__0",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "divt__2",
+          "door__0"
+        ],
+        "down": [
+          "out__1",
+          "wall__1",
+          "in__2",
+          "halfglass__7",
+          "w__1",
+          "window__1"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "out__2",
+          "wall__1",
+          "in__1",
+          "halfglass__1",
+          "w__1",
+          "window__1"
+        ]
+      }
+    },
+    {
+      "name": "walldiv__2",
+      "image": "walldiv__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__3",
+          "wall__2",
+          "in__2",
+          "halfglass__2",
+          "w__2",
+          "window__2"
+        ],
+        "down": [
+          "divturn__0",
+          "divturn__1",
+          "div__1",
+          "divt__1",
+          "divt__3",
+          "door__1"
+        ],
+        "right": [
+          "out__2",
+          "wall__2",
+          "in__3",
+          "halfglass__6",
+          "w__2",
+          "window__2"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "walldiv__3",
+      "image": "walldiv__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "out__0",
+          "wall__3",
+          "in__3",
+          "halfglass__3",
+          "w__3",
+          "window__3"
+        ],
+        "right": [
+          "divturn__1",
+          "divturn__2",
+          "div__0",
+          "divt__0",
+          "divt__2",
+          "door__0"
+        ],
+        "up": [
+          "out__3",
+          "wall__3",
+          "in__0",
+          "halfglass__5",
+          "w__3",
+          "window__3"
+        ]
+      }
+    },
+    {
+      "name": "divturn__0",
+      "image": "divturn__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "walldiv__1",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0"
+        ],
+        "up": [
+          "walldiv__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "divturn__1",
+      "image": "divturn__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "walldiv__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "walldiv__2",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "divturn__2",
+      "image": "divturn__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "walldiv__3",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0"
+        ],
+        "down": [
+          "walldiv__0",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "divturn__3",
+      "image": "divturn__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "walldiv__0",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1"
+        ],
+        "right": [
+          "walldiv__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "div__0",
+      "image": "div__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "walldiv__3",
+          "divturn__0",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "divt__1",
+          "divt__2",
+          "stairs__0",
+          "stairs__2",
+          "door__0"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "walldiv__1",
+          "divturn__1",
+          "divturn__2",
+          "div__0",
+          "divt__0",
+          "divt__2",
+          "divt__3",
+          "stairs__0",
+          "stairs__2",
+          "door__0"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "div__1",
+      "image": "div__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "walldiv__0",
+          "divturn__0",
+          "divturn__1",
+          "div__1",
+          "divt__1",
+          "divt__2",
+          "divt__3",
+          "stairs__1",
+          "stairs__3",
+          "door__1"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "walldiv__2",
+          "divturn__2",
+          "divturn__3",
+          "div__1",
+          "divt__0",
+          "divt__1",
+          "divt__3",
+          "stairs__1",
+          "stairs__3",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "divt__0",
+      "image": "divt__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "walldiv__3",
+          "divturn__0",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0"
+        ],
+        "down": [
+          "div__1",
+          "door__1"
+        ],
+        "right": [
+          "walldiv__1",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "door__0"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "divt__1",
+      "image": "divt__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "walldiv__0",
+          "divturn__1",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1"
+        ],
+        "right": [
+          "div__0",
+          "door__0"
+        ],
+        "up": [
+          "walldiv__2",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "divt__2",
+      "image": "divt__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "walldiv__3",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "walldiv__1",
+          "divturn__2",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "door__0"
+        ],
+        "up": [
+          "div__1",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "divt__3",
+      "image": "divt__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "div__0",
+          "door__0"
+        ],
+        "down": [
+          "walldiv__0",
+          "divturn__0",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "walldiv__2",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "stairs__0",
+      "image": "stairs__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "divturn__0",
+          "div__0",
+          "divt__2",
+          "door__0"
+        ],
+        "down": [
+          "stairs__2"
+        ],
+        "right": [
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "door__0"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "stairs__1",
+      "image": "stairs__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "divturn__1",
+          "div__1",
+          "divt__3",
+          "door__1"
+        ],
+        "right": [
+          "stairs__3"
+        ],
+        "up": [
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "stairs__2",
+      "image": "stairs__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "door__0"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "divturn__2",
+          "div__0",
+          "divt__0",
+          "door__0"
+        ],
+        "up": [
+          "stairs__0"
+        ]
+      }
+    },
+    {
+      "name": "stairs__3",
+      "image": "stairs__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "stairs__1"
+        ],
+        "down": [
+          "divturn__0",
+          "div__1",
+          "divt__1",
+          "door__1"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "w__0",
+      "image": "w__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__0",
+          "in__1",
+          "walldiv__0",
+          "w__0",
+          "door__1"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "out__1",
+          "in__0",
+          "walldiv__0",
+          "w__0",
+          "door__1"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "w__1",
+      "image": "w__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "out__1",
+          "in__2",
+          "walldiv__1",
+          "w__1",
+          "door__0"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "out__2",
+          "in__1",
+          "walldiv__1",
+          "w__1",
+          "door__0"
+        ]
+      }
+    },
+    {
+      "name": "w__2",
+      "image": "w__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__3",
+          "in__2",
+          "walldiv__2",
+          "w__2",
+          "door__1"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "out__2",
+          "in__3",
+          "walldiv__2",
+          "w__2",
+          "door__1"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "w__3",
+      "image": "w__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "out__0",
+          "in__3",
+          "walldiv__3",
+          "w__3",
+          "door__0"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "out__3",
+          "in__0",
+          "walldiv__3",
+          "w__3",
+          "door__0"
+        ]
+      }
+    },
+    {
+      "name": "window__0",
+      "image": "window__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__0",
+          "in__1",
+          "walldiv__0",
+          "window__0",
+          "door__1"
+        ],
+        "down": [
+          "empty"
+        ],
+        "right": [
+          "out__1",
+          "in__0",
+          "walldiv__0",
+          "window__0",
+          "door__1"
+        ],
+        "up": [
+          "floor",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "window__1",
+      "image": "window__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "floor",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "out__1",
+          "in__2",
+          "walldiv__1",
+          "window__1",
+          "door__0"
+        ],
+        "right": [
+          "empty"
+        ],
+        "up": [
+          "out__2",
+          "in__1",
+          "walldiv__1",
+          "window__1",
+          "door__0"
+        ]
+      }
+    },
+    {
+      "name": "window__2",
+      "image": "window__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "out__3",
+          "in__2",
+          "walldiv__2",
+          "window__2",
+          "door__1"
+        ],
+        "down": [
+          "floor",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "out__2",
+          "in__3",
+          "walldiv__2",
+          "window__2",
+          "door__1"
+        ],
+        "up": [
+          "empty"
+        ]
+      }
+    },
+    {
+      "name": "window__3",
+      "image": "window__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "empty"
+        ],
+        "down": [
+          "out__0",
+          "in__3",
+          "walldiv__3",
+          "window__3",
+          "door__0"
+        ],
+        "right": [
+          "floor",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "out__3",
+          "in__0",
+          "walldiv__3",
+          "window__3",
+          "door__0"
+        ]
+      }
+    },
+    {
+      "name": "door__0",
+      "image": "door__0.png",
+      "weight": 0.5,
+      "neighbors": {
+        "left": [
+          "walldiv__3",
+          "divturn__0",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "divt__1",
+          "divt__2",
+          "stairs__0",
+          "stairs__2",
+          "door__0"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "floor",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__1",
+          "w__3",
+          "window__1",
+          "window__3",
+          "door__0",
+          "vent",
+          "table"
+        ],
+        "right": [
+          "walldiv__1",
+          "divturn__1",
+          "divturn__2",
+          "div__0",
+          "divt__0",
+          "divt__2",
+          "divt__3",
+          "stairs__0",
+          "stairs__2",
+          "door__0"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "floor",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__1",
+          "w__3",
+          "window__1",
+          "window__3",
+          "door__0",
+          "vent",
+          "table"
+        ]
+      }
+    },
+    {
+      "name": "door__1",
+      "image": "door__1.png",
+      "weight": 0.5,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "floor",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__0",
+          "w__2",
+          "window__0",
+          "window__2",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "down": [
+          "walldiv__0",
+          "divturn__0",
+          "divturn__1",
+          "div__1",
+          "divt__1",
+          "divt__2",
+          "divt__3",
+          "stairs__1",
+          "stairs__3",
+          "door__1"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "floor",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__0",
+          "w__2",
+          "window__0",
+          "window__2",
+          "door__1",
+          "vent",
+          "table"
+        ],
+        "up": [
+          "walldiv__2",
+          "divturn__2",
+          "divturn__3",
+          "div__1",
+          "divt__0",
+          "divt__1",
+          "divt__3",
+          "stairs__1",
+          "stairs__3",
+          "door__1"
+        ]
+      }
+    },
+    {
+      "name": "vent",
+      "image": "vent.png",
+      "weight": 0.5,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "vent"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "vent"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "vent"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "vent"
+        ]
+      }
+    },
+    {
+      "name": "table",
+      "image": "table.png",
+      "weight": 0.8,
+      "neighbors": {
+        "left": [
+          "wall__3",
+          "in__0",
+          "in__3",
+          "halfglass__3",
+          "halfglass__5",
+          "glass__3",
+          "divturn__1",
+          "divturn__2",
+          "div__1",
+          "divt__3",
+          "stairs__3",
+          "w__3",
+          "window__3",
+          "door__1",
+          "table"
+        ],
+        "down": [
+          "wall__0",
+          "in__0",
+          "in__1",
+          "halfglass__0",
+          "halfglass__4",
+          "glass__0",
+          "divturn__2",
+          "divturn__3",
+          "div__0",
+          "divt__0",
+          "stairs__0",
+          "w__0",
+          "window__0",
+          "door__0",
+          "table"
+        ],
+        "right": [
+          "wall__1",
+          "in__1",
+          "in__2",
+          "halfglass__1",
+          "halfglass__7",
+          "glass__1",
+          "divturn__0",
+          "divturn__3",
+          "div__1",
+          "divt__1",
+          "stairs__1",
+          "w__1",
+          "window__1",
+          "door__1",
+          "table"
+        ],
+        "up": [
+          "wall__2",
+          "in__2",
+          "in__3",
+          "halfglass__2",
+          "halfglass__6",
+          "glass__2",
+          "divturn__0",
+          "divturn__1",
+          "div__0",
+          "divt__2",
+          "stairs__2",
+          "w__2",
+          "window__2",
+          "door__0",
+          "table"
+        ]
+      }
+    }
+  ]
+}

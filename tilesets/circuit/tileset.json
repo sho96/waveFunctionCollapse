@@ -1,0 +1,2447 @@
+{
+  "cell_size": [
+    14,
+    14
+  ],
+  "grid_size": [
+    27,
+    48
+  ],
+  "display_ratio": 5,
+  "show_preview": true,
+  "start_tile": null,
+  "tiles": [
+    {
+      "name": "bridge__0",
+      "image": "bridge__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "transition__3",
+          "wire__0"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "bridge__0",
+          "transition__1",
+          "wire__0"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "bridge__1",
+      "image": "bridge__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "bridge__1",
+          "transition__0",
+          "wire__1"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "bridge__1",
+          "transition__2",
+          "wire__1"
+        ]
+      }
+    },
+    {
+      "name": "component",
+      "image": "component.png",
+      "weight": 20.0,
+      "neighbors": {
+        "left": [
+          "component",
+          "connection__1"
+        ],
+        "down": [
+          "component",
+          "connection__2"
+        ],
+        "right": [
+          "component",
+          "connection__3"
+        ],
+        "up": [
+          "component",
+          "connection__0"
+        ]
+      }
+    },
+    {
+      "name": "connection__0",
+      "image": "connection__0.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "connection__0",
+          "corner__1"
+        ],
+        "down": [
+          "component"
+        ],
+        "right": [
+          "connection__0",
+          "corner__0"
+        ],
+        "up": [
+          "bridge__0",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "turn__2",
+          "turn__3",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "connection__1",
+      "image": "connection__1.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "connection__1",
+          "corner__2"
+        ],
+        "right": [
+          "component"
+        ],
+        "up": [
+          "connection__1",
+          "corner__1"
+        ]
+      }
+    },
+    {
+      "name": "connection__2",
+      "image": "connection__2.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "connection__2",
+          "corner__2"
+        ],
+        "down": [
+          "bridge__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "turn__0",
+          "turn__1",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "connection__2",
+          "corner__3"
+        ],
+        "up": [
+          "component"
+        ]
+      }
+    },
+    {
+      "name": "connection__3",
+      "image": "connection__3.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "component"
+        ],
+        "down": [
+          "connection__3",
+          "corner__3"
+        ],
+        "right": [
+          "bridge__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "turn__1",
+          "turn__2",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "connection__3",
+          "corner__0"
+        ]
+      }
+    },
+    {
+      "name": "corner__0",
+      "image": "corner__0.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "connection__0"
+        ],
+        "down": [
+          "connection__3"
+        ],
+        "right": [
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "corner__1",
+      "image": "corner__1.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "connection__1"
+        ],
+        "right": [
+          "connection__0"
+        ],
+        "up": [
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "corner__2",
+      "image": "corner__2.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "connection__2"
+        ],
+        "up": [
+          "connection__1"
+        ]
+      }
+    },
+    {
+      "name": "corner__3",
+      "image": "corner__3.png",
+      "weight": 10.0,
+      "neighbors": {
+        "left": [
+          "connection__2"
+        ],
+        "down": [
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "connection__3"
+        ]
+      }
+    },
+    {
+      "name": "substrate",
+      "image": "substrate.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "t__0",
+      "image": "t__0.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "t__1",
+      "image": "t__1.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "t__2",
+      "image": "t__2.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "t__3",
+      "image": "t__3.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "track__0",
+      "image": "track__0.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "track__1",
+      "image": "track__1.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "transition__0",
+      "image": "transition__0.png",
+      "weight": 0.4,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1"
+        ],
+        "down": [
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "turn__0",
+          "turn__1",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0"
+        ],
+        "up": [
+          "bridge__1",
+          "wire__1"
+        ]
+      }
+    },
+    {
+      "name": "transition__1",
+      "image": "transition__1.png",
+      "weight": 0.4,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "wire__0"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2"
+        ],
+        "right": [
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "turn__1",
+          "turn__2",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "transition__2",
+      "image": "transition__2.png",
+      "weight": 0.4,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__1",
+          "wire__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__3"
+        ],
+        "up": [
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "turn__2",
+          "turn__3",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "transition__3",
+      "image": "transition__3.png",
+      "weight": 0.4,
+      "neighbors": {
+        "left": [
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__0",
+          "wire__0"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0"
+        ]
+      }
+    },
+    {
+      "name": "turn__0",
+      "image": "turn__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "dskew__1"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__3",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "turn__1",
+      "image": "turn__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "dskew__0"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "dskew__0"
+        ]
+      }
+    },
+    {
+      "name": "turn__2",
+      "image": "turn__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__3",
+          "dskew__1"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__1",
+          "dskew__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "turn__3",
+      "image": "turn__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "dskew__0"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__2",
+          "dskew__0"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "viad__0",
+      "image": "viad__0.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "turn__1",
+          "turn__2",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "viad__1",
+      "image": "viad__1.png",
+      "weight": 0.1,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "turn__0",
+          "turn__1",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__0",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "turn__2",
+          "turn__3",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "vias__0",
+      "image": "vias__0.png",
+      "weight": 0.3,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__2",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__0",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "turn__2",
+          "turn__3",
+          "skew__2",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "vias__1",
+      "image": "vias__1.png",
+      "weight": 0.3,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "turn__0",
+          "turn__3",
+          "skew__0",
+          "skew__3",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "vias__2",
+      "image": "vias__2.png",
+      "weight": 0.3,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "turn__0",
+          "turn__1",
+          "skew__0",
+          "skew__1",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "vias__3",
+      "image": "vias__3.png",
+      "weight": 0.3,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__1",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "turn__1",
+          "turn__2",
+          "skew__1",
+          "skew__2",
+          "dskew__0",
+          "dskew__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "wire__0",
+      "image": "wire__0.png",
+      "weight": 0.5,
+      "neighbors": {
+        "left": [
+          "bridge__0",
+          "transition__3",
+          "wire__0"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__0",
+          "transition__1",
+          "wire__0"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "wire__1",
+      "image": "wire__1.png",
+      "weight": 0.5,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__1",
+          "transition__0",
+          "wire__1"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__1",
+          "transition__2",
+          "wire__1"
+        ]
+      }
+    },
+    {
+      "name": "skew__0",
+      "image": "skew__0.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__3",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "viad__0",
+          "vias__1",
+          "skew__2",
+          "dskew__0"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "dskew__0"
+        ]
+      }
+    },
+    {
+      "name": "skew__1",
+      "image": "skew__1.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "viad__0",
+          "vias__3",
+          "skew__3",
+          "dskew__1"
+        ],
+        "down": [
+          "corner__0",
+          "corner__1",
+          "substrate",
+          "t__0",
+          "track__1",
+          "transition__1",
+          "turn__2",
+          "turn__3",
+          "viad__0",
+          "vias__1",
+          "vias__2",
+          "vias__3",
+          "wire__0",
+          "skew__2",
+          "skew__3"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__0",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "viad__1",
+          "vias__2",
+          "skew__3",
+          "dskew__1"
+        ]
+      }
+    },
+    {
+      "name": "skew__2",
+      "image": "skew__2.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "dskew__0"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "dskew__0"
+        ],
+        "right": [
+          "corner__1",
+          "corner__2",
+          "substrate",
+          "t__1",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "turn__3",
+          "viad__1",
+          "vias__0",
+          "vias__2",
+          "vias__3",
+          "wire__1",
+          "skew__0",
+          "skew__3"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "skew__3",
+      "image": "skew__3.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "corner__0",
+          "corner__3",
+          "substrate",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__1",
+          "turn__2",
+          "viad__1",
+          "vias__0",
+          "vias__1",
+          "vias__2",
+          "wire__1",
+          "skew__1",
+          "skew__2"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "viad__1",
+          "vias__0",
+          "skew__1",
+          "dskew__1"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "dskew__1"
+        ],
+        "up": [
+          "corner__2",
+          "corner__3",
+          "substrate",
+          "t__2",
+          "track__1",
+          "transition__3",
+          "turn__0",
+          "turn__1",
+          "viad__0",
+          "vias__0",
+          "vias__1",
+          "vias__3",
+          "wire__0",
+          "skew__0",
+          "skew__1"
+        ]
+      }
+    },
+    {
+      "name": "dskew__0",
+      "image": "dskew__0.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__3",
+          "viad__0",
+          "vias__3",
+          "skew__0",
+          "dskew__0"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__1",
+          "viad__1",
+          "vias__0",
+          "skew__0",
+          "dskew__0"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__1",
+          "viad__0",
+          "vias__1",
+          "skew__2",
+          "dskew__0"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__3",
+          "viad__1",
+          "vias__2",
+          "skew__2",
+          "dskew__0"
+        ]
+      }
+    },
+    {
+      "name": "dskew__1",
+      "image": "dskew__1.png",
+      "weight": 2.0,
+      "neighbors": {
+        "left": [
+          "bridge__1",
+          "connection__3",
+          "t__0",
+          "t__1",
+          "t__2",
+          "track__1",
+          "transition__1",
+          "turn__0",
+          "viad__0",
+          "vias__3",
+          "skew__3",
+          "dskew__1"
+        ],
+        "down": [
+          "bridge__0",
+          "connection__0",
+          "t__1",
+          "t__2",
+          "t__3",
+          "track__0",
+          "transition__2",
+          "turn__0",
+          "viad__1",
+          "vias__0",
+          "skew__1",
+          "dskew__1"
+        ],
+        "right": [
+          "bridge__1",
+          "connection__1",
+          "t__0",
+          "t__2",
+          "t__3",
+          "track__1",
+          "transition__3",
+          "turn__2",
+          "viad__0",
+          "vias__1",
+          "skew__1",
+          "dskew__1"
+        ],
+        "up": [
+          "bridge__0",
+          "connection__2",
+          "t__0",
+          "t__1",
+          "t__3",
+          "track__0",
+          "transition__0",
+          "turn__2",
+          "viad__1",
+          "vias__2",
+          "skew__3",
+          "dskew__1"
+        ]
+      }
+    }
+  ],
+  "subsets": {
+    "Turnless": [
+      "bridge__0",
+      "bridge__1",
+      "component",
+      "connection__0",
+      "connection__1",
+      "connection__2",
+      "connection__3",
+      "corner__0",
+      "corner__1",
+      "corner__2",
+      "corner__3",
+      "substrate",
+      "t__0",
+      "t__1",
+      "t__2",
+      "t__3",
+      "track__0",
+      "track__1",
+      "transition__0",
+      "transition__1",
+      "transition__2",
+      "transition__3",
+      "viad__0",
+      "viad__1",
+      "vias__0",
+      "vias__1",
+      "vias__2",
+      "vias__3",
+      "wire__0",
+      "wire__1",
+      "skew__0",
+      "skew__1",
+      "skew__2",
+      "skew__3",
+      "dskew__0",
+      "dskew__1"
+    ]
+  }
+}

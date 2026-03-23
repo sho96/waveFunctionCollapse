@@ -1,0 +1,1359 @@
+{
+  "cell_size": [
+    32,
+    32
+  ],
+  "grid_size": [
+    27,
+    48
+  ],
+  "display_ratio": 5,
+  "show_preview": true,
+  "start_tile": null,
+  "tiles": [
+    {
+      "name": "b_half__0",
+      "image": "b_half__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "b_half__1",
+      "image": "b_half__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "b_half__2",
+      "image": "b_half__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "b_half__3",
+      "image": "b_half__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "b_i__0",
+      "image": "b_i__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "b_i__1",
+      "image": "b_i__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "b_quarter__0",
+      "image": "b_quarter__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "b_quarter__1",
+      "image": "b_quarter__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "b_quarter__2",
+      "image": "b_quarter__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "b_quarter__3",
+      "image": "b_quarter__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "w_half__0",
+      "image": "w_half__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "w_half__1",
+      "image": "w_half__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "w_half__2",
+      "image": "w_half__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "w_half__3",
+      "image": "w_half__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "w_i__0",
+      "image": "w_i__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "w_i__1",
+      "image": "w_i__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "w_quarter__0",
+      "image": "w_quarter__0.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "w_quarter__1",
+      "image": "w_quarter__1.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    },
+    {
+      "name": "w_quarter__2",
+      "image": "w_quarter__2.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "w_quarter__3",
+      "image": "w_quarter__3.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "b",
+      "image": "b.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__1",
+          "w_quarter__2",
+          "b"
+        ],
+        "down": [
+          "b_half__0",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__1",
+          "w_half__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__2",
+          "w_quarter__3",
+          "b"
+        ],
+        "right": [
+          "b_half__1",
+          "b_i__1",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__0",
+          "w_half__2",
+          "w_half__3",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__3",
+          "b"
+        ],
+        "up": [
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_half__1",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__1",
+          "b"
+        ]
+      }
+    },
+    {
+      "name": "w",
+      "image": "w.png",
+      "weight": 1.0,
+      "neighbors": {
+        "left": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__2",
+          "b_i__0",
+          "b_quarter__1",
+          "b_quarter__2",
+          "w_half__3",
+          "w_i__1",
+          "w_quarter__0",
+          "w_quarter__3",
+          "w"
+        ],
+        "down": [
+          "b_half__1",
+          "b_half__2",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__2",
+          "b_quarter__3",
+          "w_half__0",
+          "w_i__0",
+          "w_quarter__0",
+          "w_quarter__1",
+          "w"
+        ],
+        "right": [
+          "b_half__0",
+          "b_half__2",
+          "b_half__3",
+          "b_i__0",
+          "b_quarter__0",
+          "b_quarter__3",
+          "w_half__1",
+          "w_i__1",
+          "w_quarter__1",
+          "w_quarter__2",
+          "w"
+        ],
+        "up": [
+          "b_half__0",
+          "b_half__1",
+          "b_half__3",
+          "b_i__1",
+          "b_quarter__0",
+          "b_quarter__1",
+          "w_half__2",
+          "w_i__0",
+          "w_quarter__2",
+          "w_quarter__3",
+          "w"
+        ]
+      }
+    }
+  ],
+  "subsets": {
+    "Large Circles": [
+      "b_quarter__0",
+      "b_quarter__1",
+      "b_quarter__2",
+      "b_quarter__3",
+      "w_quarter__0",
+      "w_quarter__1",
+      "w_quarter__2",
+      "w_quarter__3"
+    ],
+    "Large Circles and Solid": [
+      "b_quarter__0",
+      "b_quarter__1",
+      "b_quarter__2",
+      "b_quarter__3",
+      "w_quarter__0",
+      "w_quarter__1",
+      "w_quarter__2",
+      "w_quarter__3",
+      "b",
+      "w"
+    ],
+    "No Solid": [
+      "b_half__0",
+      "b_half__1",
+      "b_half__2",
+      "b_half__3",
+      "b_i__0",
+      "b_i__1",
+      "b_quarter__0",
+      "b_quarter__1",
+      "b_quarter__2",
+      "b_quarter__3",
+      "w_half__0",
+      "w_half__1",
+      "w_half__2",
+      "w_half__3",
+      "w_i__0",
+      "w_i__1",
+      "w_quarter__0",
+      "w_quarter__1",
+      "w_quarter__2",
+      "w_quarter__3"
+    ]
+  }
+}
